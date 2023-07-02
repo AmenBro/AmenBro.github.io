@@ -1,5 +1,5 @@
 ---
-title:  "men" 
+title:  "인스타 브레인" 
 
 categories:
   - Self Development
