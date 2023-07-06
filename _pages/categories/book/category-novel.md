@@ -1,7 +1,7 @@
 ---
 title: "소설"
 layout: archive
-permalink: categories/novel
+permalink: categories/book/novel
 author_profile: true
 sidebar_main: true
 ---

@@ -1,7 +1,7 @@
 ---
-title: "자기개발"
+title: "잡담"
 layout: archive
-permalink: categories/self-development
+permalink: categories/book/book-etc
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Self Development'] %}
+{% assign posts = site.categories['Book Etc'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

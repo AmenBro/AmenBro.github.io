@@ -1,7 +1,7 @@
 ---
-title: "인문학"
+title: "자기개발"
 layout: archive
-permalink: categories/humanities
+permalink: categories/book/self-development
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Humanities %}
+{% assign posts = site.categories.['Self Development'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

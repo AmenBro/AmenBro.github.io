@@ -12,21 +12,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Self Development" %}
-                        <li><a href="/categories/self-development" class="">자기개발 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/book/self-development" class="">자기개발 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Humanities" %}
-                        <li><a href="/categories/humanities" class="">인문학 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/book/humanities" class="">인문학 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Novel" %}
-                        <li><a href="/categories/novel" class="">소설 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/book/novel" class="">소설 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Book Etc" %}
+                        <li><a href="/categories/book/book-etc" class="">소설 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -34,7 +41,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UE4 Etc" %}
-                        <li><a href="/categories/ue4-etc" class="">Etc (with UE4) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/book/ue4-etc" class="">Etc (with UE4) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
